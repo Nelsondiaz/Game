@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>	
+</head>
+<body>
+	<script>
+		var arreglo = [1,2,3];
+		window.addEventListener('load',init);
+		function init(){
+			arreglo.push(4);
+			arreglo.push(5);
+
+
+			for(i in arreglo){
+				console.log(arreglo[i]);
+			}
+
+
+			for (var i = arreglo.length - 1; i >=0; i--){
+				console.log(arreglo[i]);
+			};
+
+			for (var i = 0; i <= arreglo.length - 1; i++){
+				console.log(arreglo[i]);
+			};
+		}
+	</script>	
+</body>
+</html>
